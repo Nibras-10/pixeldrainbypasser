@@ -1,6 +1,6 @@
 name = "pixeldrain-bypasser"
 main = "worker.js"
-compatibility_date = "2023-12-01"
+compatibility_date = "2025-07-22"
 
 [env.production]
 name = "pixeldrain-bypasser-prod"

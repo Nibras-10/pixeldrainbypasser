@@ -1,0 +1,5 @@
+{
+  "name": "pixeldrain-bypasser",
+  "compatibility_date": "2025-07-22",
+  "main": "worker.js"
+}

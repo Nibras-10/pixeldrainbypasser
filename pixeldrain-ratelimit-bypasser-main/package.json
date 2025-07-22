@@ -4,8 +4,9 @@
   "description": "Cloudflare Worker to bypass PixelDrain rate limits",
   "main": "worker.js",
   "scripts": {
-    "deploy": "wrangler deploy",
-    "dev": "wrangler dev",
+    "build": "echo 'No build step required'",
+    "deploy": "wrangler deploy worker.js --name pixeldrain-bypasser",
+    "dev": "wrangler dev worker.js",
     "test": "echo \"No tests specified\""
   },
   "keywords": ["cloudflare", "worker", "pixeldrain", "bypass"],
