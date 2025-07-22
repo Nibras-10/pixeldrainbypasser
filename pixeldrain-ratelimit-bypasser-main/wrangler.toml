@@ -1,0 +1,9 @@
+name = "pixeldrain-bypasser"
+main = "worker.js"
+compatibility_date = "2023-12-01"
+
+[env.production]
+name = "pixeldrain-bypasser-prod"
+
+[env.staging]
+name = "pixeldrain-bypasser-staging"

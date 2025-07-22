@@ -1,0 +1,17 @@
+{
+  "name": "pixeldrain-bypasser",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker to bypass PixelDrain rate limits",
+  "main": "worker.js",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "test": "echo \"No tests specified\""
+  },
+  "keywords": ["cloudflare", "worker", "pixeldrain", "bypass"],
+  "author": "sh13y",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
